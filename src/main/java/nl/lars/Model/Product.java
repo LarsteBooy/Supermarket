@@ -2,18 +2,21 @@ package nl.lars.Model;
 
 public class Product {
 
-    private float price = 0.0f;
-    String productName = "name";
+    private double price = 0.0f;
+    private String productName = "name";
+    private int quantity = 0;
 
 
-    public Product(double price, String productName){
-        this.productName;
-        this.price;
+    public Product(String productName, double price, int quantity){
+        this.productName = productName;
+        this.price = price;
+        this.quantity = quantity;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
+
 
     public void setPrice(float price) {
         this.price = price;
@@ -27,6 +30,14 @@ public class Product {
         this.productName = productName;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
 
     //UNIT TEST
     public boolean isEetbaar(boolean voedsel){
@@ -35,4 +46,6 @@ public class Product {
         }
         return false;
     }
+
+
 }

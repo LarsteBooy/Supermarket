@@ -10,7 +10,7 @@ public class ProductTest extends TestCase {
         //Arrange
         boolean input = true;
         boolean expected = true;
-        Product product = new Product(45, "adsf");
+        Product product = new Product("asdf", 34);
 
         //Act
         boolean result = product.isEetbaar(input);
