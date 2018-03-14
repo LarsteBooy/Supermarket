@@ -10,6 +10,7 @@ public class App
     {
         Stock stock = new Stock();
         stock.addToStock();
+
     }
 }
 

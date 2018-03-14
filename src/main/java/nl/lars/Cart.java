@@ -6,7 +6,16 @@ import java.util.ArrayList;
 
 public class Cart {
 
-    public static ArrayList<Product> productList = new ArrayList<Product>();
+
+    Stock stock = new Stock();
+
+    private static ArrayList<Product> productList = new ArrayList<Product>();
+
+
+    public void addToProductList{
+        Stock // hier verder
+    }
+
 
 
 

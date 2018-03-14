@@ -8,8 +8,10 @@ import java.util.ArrayList;
 
 public class Stock {
 
+    ArrayList<Product> stock = new ArrayList<Product>();
+
     public void addToStock() {
-        ArrayList<Product> stock = new ArrayList<Product>();
+
 
         Product frikandelbroodje = new Product("Frikandelbroodje", 1.00, 10);
         Product pampers = new Product("Pampers", 9.99, 25);
